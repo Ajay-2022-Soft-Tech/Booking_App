@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".PersonDetails">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Enter your details"
+        android:textColor="@color/darkgrey"
+        android:textSize="26dp"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/color"
+        tools:ignore="ContentDescription,HardcodedText,RtlHardcoded">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Enjoy Your Tour"
+        android:textColor="@color/darkgrey"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="342dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="535dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        app:cardCornerRadius="40dp"
+        tools:ignore="RtlHardcoded">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="@color/violet"
+            app:hintTextColor="@color/darkgrey"
+            android:textColorHint="@color/darkgrey"
+            app:startIconDrawable="@drawable/baseline_drive_file_rename_outline_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your name"
+                android:textColor="@color/darkgrey"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="@color/violet"
+            app:hintTextColor="@color/darkgrey"
+            android:textColorHint="@color/darkgrey"
+            app:startIconDrawable="@drawable/baseline_add_home_work_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your address"
+                android:textColor="@color/darkgrey"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:layout_width="400dp"
+            android:layout_height="264dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="140dp"
+                android:textColor="@color/darkgrey"
+                android:text="5 days Trip"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/darkgrey"
+                android:layout_marginTop="140dp"
+                android:text="10 days trip "
+                tools:ignore="HardcodedText" />
+
+
+        </RadioGroup>
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="@color/darkgrey"
+            android:layout_marginTop="190dp"
+            android:minHeight="48dp"
+
+            android:text="Do you want Assistant (500/- person)"
+            android:textColor="#ff3399"
+            tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml,TextContrastCheck" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="20dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="@color/violet"
+            app:hintTextColor="@color/violet"
+            android:textColorHint="@color/darkgrey"
+            app:startIconDrawable="@drawable/baseline_mail_outline_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etMail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your mail"
+                android:textColor="@color/darkgrey"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="20dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="@color/violet"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/darkgrey"
+            android:textColorHint="@color/darkgrey"
+            app:hintTextColor="@color/darkgrey"
+            app:startIconDrawable="@drawable/baseline_lock_open_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your password"
+                android:textColor="@color/darkgrey"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="375dp"
+            android:text="No. of person"
+            android:textSize="17dp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="362dp"
+            android:layout_marginRight="20dp"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            app:boxStrokeColor="@color/violet"
+            app:hintTextColor="@color/darkgrey"
+            app:startIconTint="@color/darkgrey"
+            android:textColorHint="@color/darkgrey"
+            app:startIconDrawable="@drawable/baseline_person_outline_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Person"
+                android:textColor="@color/darkgrey"
+                tools:ignore="HardcodedText,TouchTargetSizeCheck,TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/buttonPay"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="430dp"
+            android:backgroundTint="@color/blue"
+            android:text="Register"
+            android:textColor="@color/darkgrey"
+            tools:ignore="HardcodedText,RtlHardcoded">
+
+        </Button>
+        <Button
+            android:id="@+id/buttonToPayment"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="480dp"
+            android:backgroundTint="@color/blue"
+            android:text="Pay Now"
+            android:textColor="@color/darkgrey"
+            tools:ignore="HardcodedText,RtlHardcoded">
+
+        </Button>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

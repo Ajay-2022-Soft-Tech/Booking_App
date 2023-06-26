@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/color">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="262dp"
+        android:layout_height="244dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/success"
+        android:importantForAccessibility="no" />
+
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@color/blue"
+        android:text="Go home"
+        android:textColor="@color/darkgrey"
+        tools:ignore="HardcodedText,RtlHardcoded">
+
+    </Button>
+</RelativeLayout>

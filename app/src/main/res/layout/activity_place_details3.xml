@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".PlaceDetails">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virtual House"
+        android:textColor="@color/darkgrey"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="10dp"
+
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="384dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/virtualhouse"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="392dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/color"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="324dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/white"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="About Virtual House"
+            android:textSize="20dp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="333dp"
+            android:padding="15dp"
+            android:textColor="@color/darkgrey"
+            android:text="@string/nwe_had_numerous_sessions_about_what_we_should_call_ourselves_it_was_pretty_funny_we_tried_to_describe_all_these_otherworldly_type_things_things_that_would_reflect_the_way_we_sounded_and_there_was_mention_of_a_beach_party_on_the_moon_we_already_had_a_song_called_house_on_the_hill_and_basically_it_just_came_out_one_day_beach_house_why_not_just_name_it_this_i_think_we_were_lucky_vocalist_and_organist_victoria_legrand_who_graduated_from_vassar_college_in_2003_and_guitarist_alex_scally_who_graduated_from_oberlin_college_in_2004_formed_the_band_in_2004_after_meeting_in_baltimore_s_indie_rock_scene_they_produce_music_composed_largely_of_organ_programmed_drums_and_steel_guitars_2_scally_talked_about_the_origin_of_the_band_s_name_saying_we_d_been_writing_music_and_we_had_all_these_songs"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonPlace"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="710dp"
+        android:layout_marginLeft="100dp"
+        android:text="Book Now"
+        android:textColor="@color/darkgrey"
+        android:backgroundTint="@color/blue"
+        tools:ignore="HardcodedText,RtlHardcoded">
+
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PlaceDetails4">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain Lake"
+        android:textColor="@color/darkgrey"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="10dp"
+
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="375dp"
+            android:layout_height="276dp"
+            app:srcCompat="@drawable/mountainlake"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="392dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/color"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="324dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/white"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="About Mountain lake"
+            android:textSize="20dp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="333dp"
+            android:textColor="@color/darkgrey"
+            android:padding="15dp"
+            android:text="\nMountain Lake typically covers about 50 acres (200,000 m2), and its level was largely constant at an elevation of 3,875 feet (1,181 m) during the 19th and 20th centuries. The first known written evidence of the lake was by Christopher Gist of the Ohio Land Surveying Company, in 1751. It subsequently became known as Salt Pond.[2]
+
+Natural lakes are common well to the north, where the Appalachian Range was subject to geologically recent glacial activity. But the basis on which this lake—the only natural one in the southern Appalachians—exists has been the source of much speculation. Recent scientific studies indicate that an unusual combination of natural processes created the lake, which is maintained by a fissure at the bottom that provides an outlet for both sediment and water." />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonPlace"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="100dp"
+        android:text="Book Now"
+        android:textColor="@color/darkgrey"
+        android:backgroundTint="@color/blue"
+        tools:ignore="HardcodedText,RtlHardcoded">
+
+    </Button>
+</RelativeLayout>

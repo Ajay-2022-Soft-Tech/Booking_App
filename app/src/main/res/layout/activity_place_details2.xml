@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".PlaceDetails">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sea House"
+        android:textSize="30dp"
+        android:textColor="@color/darkgrey"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="10dp"
+
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="412dp"
+            android:layout_height="226dp"
+            app:srcCompat="@drawable/seahouse"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="392dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/color"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="324dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="@color/white"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="About Sea House"
+            android:textSize="20dp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="333dp"
+            android:textColor="@color/darkgrey"
+            android:padding="15dp"
+            android:text="\nWe had numerous sessions about what we should call ourselves. It was pretty funny. We tried to describe all these otherworldly-type things, things that would reflect the way we sounded. And there was mention of a beach party on the moon. We already had a song called House on the Hill, and basically it just came out one day: Beach House. Why not just name it this? I think we were lucky
+Vocalist and organist Victoria Legrand, who graduated from Vassar College in 2003, and guitarist Alex Scally, who graduated from Oberlin College in 2004, formed the band in 2004 after meeting in Baltimore's indie rock scene. They produce music composed largely of organ, programmed drums, and steel guitars.[2] Scally talked about the origin of the band's name saying, We’d been writing music, and we had all these songs.
+        " />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonPlace"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="100dp"
+        android:text="Book Now"
+        android:textColor="@color/darkgrey"
+        android:backgroundTint="@color/blue"
+        tools:ignore="HardcodedText,RtlHardcoded">
+
+    </Button>
+</RelativeLayout>

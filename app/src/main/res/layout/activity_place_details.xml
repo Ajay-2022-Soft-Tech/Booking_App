@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PlaceDetails">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beach Surfing"
+        android:textColor="@color/darkgrey"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="19dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="362dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="90dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="10dp"
+
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="412dp"
+            android:layout_height="277dp"
+            app:srcCompat="@drawable/beach_surfing"
+            tools:ignore="ContentDescription,VisualLintBounds" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="397dp"
+        android:layout_height="392dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/color"
+        tools:ignore="ContentDescription">
+
+    </ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="324dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="20dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="About Surfing"
+            android:textColor="@color/darkgrey"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage,TextSizeCheck,VisualLintOverlap">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:textColor="@color/darkgrey"
+            android:layout_height="333dp"
+            android:padding="15dp"
+            android:text="\nSurfing is a surface water sport in which an individual, a surfer (or two in tandem surfing), uses a board to ride on the forward section, or face, of a moving wave of water, which usually carries the surfer towards the shore. Waves suitable for surfing are primarily found on ocean shores, but can also be found in standing waves in the open ocean, in lakes, in rivers in the form of a tidal bore, or in wave pools.
+
+The term surfing refers to a person riding a wave using a board, regardless of the stance. There are several types of boards. The Moche of Peru would often surf on reed craft, while the native peoples of the Pacific surfed waves on alaia, paipo, and other such water craft. Ancient cultures often surfed on their belly and knees, while the modern-day definition of surfing most often refers to a surfer riding a wave standing on a surfboard; "
+            tools:ignore="HardcodedText,VisualLintBounds" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonPlace"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="100dp"
+        android:text="Book Now"
+        android:textColor="@color/darkgrey"
+        android:backgroundTint="@color/blue"
+        tools:ignore="HardcodedText,RtlHardcoded">
+
+    </Button>
+</RelativeLayout>
